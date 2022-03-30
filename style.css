@@ -1,0 +1,150 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	color: #828799;
+}
+
+body {
+	background-color: #F9FBFC;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	background-color: #1D539E;
+	height: 50vh;
+}
+
+header h1 {
+	font-weight: 700;
+	color: white;
+	margin-bottom: 1%;
+	margin-top: 5%;
+}
+
+header p {
+	width: 30%;
+	margin-top: 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: white;
+}
+
+main {
+	display: flex;
+	margin-top: -20vh;
+	justify-content: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+	padding: 0 30px 30px 30px ;
+	width: 385px;
+	height: 530px;
+	margin: 1%;
+	border-radius: 2%;
+	box-shadow: 2px 1px rgba(0,0,0,0.01), -2px 1px rgba(0,0,0,0.01);
+}
+
+section div h1 {
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: #1E2338;
+}
+
+.separator {
+	height: 1px;
+	width: 100%;
+	background-color: #EEEEEE;
+}
+
+h3::before {
+	content: url("assets/check.svg");
+	position: relative;
+	top: 4px;
+	margin-right: 18px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #1E2338;
+}
+
+strong {
+	font-size: 2.8rem;
+	color: #1E2338;
+}
+
+span {
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+h3 {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.button__sign {
+	height: 60px;;
+	font-weight: 600;
+	font-size: 1.5rem;
+	background-color: transparent;
+	border: 2px solid #1D539E;
+	color: #1D539E;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.button__sign:hover {
+	border: 4px solid #1D539E;
+}
+
+.button__sign:active {
+	border: 2px solid #1D539E;
+}
+
+#middle__plan .button__sign {
+	color: white;
+	background-color: #1D539E;
+}
+
+#middle__plan .button__sign:hover {
+	background-color: #16417d;
+	border-color: #16417d;
+}
+
+#middle__plan .button__sign:active {
+	color: white;
+	background-color: #1D539E;
+}
+
+#popular {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+#middle__plan div div p {
+	color: white;
+	background-color: #1D539E;
+	padding: 8px 32px;
+	border-radius: 18px;
+}
+
+#middle__plan {
+	background: linear-gradient(0deg, rgba(255,255,255,1) 82%, rgba(255,204,41,1) 82%);
+}
+
+#middle__plan div div h1 {
+	color: #1D539E;
+}
